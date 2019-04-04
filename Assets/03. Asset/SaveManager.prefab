@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1858507546825390}
+  m_IsPrefabAsset: 1
+--- !u!1 &1858507546825390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4146185284823140}
+  - component: {fileID: 114891315056246970}
+  m_Layer: 0
+  m_Name: SaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4146185284823140
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1858507546825390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.815013, y: 5.116549, z: 89.989586}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114891315056246970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1858507546825390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6fea07f7103a344b89039caaa6bce8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state:
+    level: 1
+    maxLevel: 0
+    levelHighScore: 1
+    gameCount: 0
+    currency: 0
+    indexOfSelectedWheel: 0
+    broughtAds: 0
+    item0: 1
+    item1: 0
+    item2: 0
+    item3: 0
+    item4: 0
+    item5: 0
+    item6: 0
+    item7: 0
+    item8: 0
+    item9: 0
+    item10: 0
+    item11: 0
+    item12: 0
+    item13: 0
+    item14: 0
+    highScore: 0
+    sound: 0
+    first: 0
+    login: 0
+  resetSave: 0
